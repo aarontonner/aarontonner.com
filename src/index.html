@@ -1,0 +1,1136 @@
+---
+title: "Aaron Tonner Web Solutions"
+description: "Meta description for the page"
+preloadImg: "/assets/images/landing.jpg"
+permalink: "/"
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %} {% block head %}
+
+<link rel="stylesheet" href="/assets/css/local.css" />
+<link rel="stylesheet" href="/assets/css/critical.css" />
+
+<!-- Script for Netlify Identity -->
+<script
+  defer
+  src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+></script>
+<script defer>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", (user) => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/"
+        })
+      }
+    })
+  }
+</script>
+{% endblock %} {% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1203">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Web Design | Web Development | SEO</span>
+      <h1 class="cs-title">
+        Fully Optimized Custom Websites For Maximum Impact
+      </h1>
+      <p class="cs-text">
+        I specialize in building high-performance custom websites that implement
+        winning SEO strategies and I provide ongoing website maintenance, so
+        your website is always up-to-date and fully optimized for maximum online
+        impact.
+      </p>
+      <a href="/portfolio" class="cs-button-solid">See My Work</a>
+    </div>
+    <!--To make your own background crops of people use https://www.remove.bg/-->
+    <picture class="cs-picture">
+      <source
+        media="(max-width: 600px)"
+        srcset="/assets/images/royco-electric-mockup.svg"
+      />
+      <source
+        media="(min-width: 601px)"
+        srcset="/assets/images/royco-electric-mockup.svg"
+      />
+      <img
+        aria-hidden="true"
+        decoding="async"
+        src="/assets/images/royco-electric-mockup.svg"
+        alt="web designer"
+        width="886"
+        height="842"
+      />
+    </picture>
+  </div>
+  <!--Floating Arrow-->
+  <img
+    class="cs-floater"
+    aria-hidden="true"
+    decoding="async"
+    src="/assets/images/royco-electric-mockup.svg"
+    alt="web design company"
+    width="1465"
+    height="950"
+  />
+</section>
+
+<!-- ============================================ -->
+<!--              Side By Side Reverse            -->
+<!-- ============================================ -->
+
+<section id="RPsbsr-1587">
+  <div class="cs-container">
+    <picture class="cs-picture">
+      <!--Mobile Image-->
+      <source
+        media="(max-width: 600px)"
+        srcset="/assets/images/calgary-web-design-case-study-1.svg"
+      />
+      <!--Tablet and above Image-->
+      <source
+        media="(min-width: 601px)"
+        srcset="/assets/images/calgary-web-design-case-study-1.svg"
+      />
+      <img
+        loading="lazy"
+        decoding="async"
+        src="/assets/images/calgary-web-design-case-study-1.svg"
+        alt="calgary web design case study"
+        width="586"
+        height="690"
+      />
+    </picture>
+    <div class="cs-content">
+      <span class="cs-topper">Website Design Case Study</span>
+      <h2 class="cs-title">
+        Glass Contractor Gets 16x More Bookings in 50 Days
+      </h2>
+      <ul class="cs-card-group">
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">01</span>
+            <h3 class="cs-h3">Website Redesign</h3>
+          </div>
+          <p class="cs-item-text">
+            A professional
+            <a href="/services/web-design-calgary">website makeover</a> that was
+            designed for optimizing customer conversions through a professional
+            and unique design.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">02</span>
+            <h3 class="cs-h3">Website Development</h3>
+          </div>
+          <p class="cs-item-text">
+            Building the website with speed, performance, and
+            <a href="/services/calgary-seo-services">profitable keywords</a> in
+            mind.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">03</span>
+            <h3 class="cs-h3">Local SEO</h3>
+          </div>
+          <p class="cs-item-text">
+            Adding a Google Business Profile and getting the company seen on
+            multiple high-traffic local directories for more customer
+            impressions.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">04</span>
+            <h3 class="cs-h3">Customer Review Campaign</h3>
+          </div>
+          <p class="cs-item-text">
+            Gaining 5-star Google reviews to increase authority in a competitive
+            marketplace, and crafting unique responses to represent the
+            company's dedication to building positive business relationships.
+          </p>
+        </li>
+      </ul>
+      <a href="/portfolio" class="cs-button-solid">View All Work</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Side By Side                -->
+<!-- ============================================ -->
+
+<section id="RPsbs-1587">
+  <div class="cs-container">
+    <picture class="cs-picture">
+      <!--Mobile Image-->
+      <source
+        media="(max-width: 600px)"
+        srcset="/assets/images/calgary-web-design-case-study-2.svg"
+      />
+      <!--Tablet and above Image-->
+      <source
+        media="(min-width: 601px)"
+        srcset="/assets/images/calgary-web-design-case-study-2.svg"
+      />
+      <img
+        loading="lazy"
+        decoding="async"
+        src="/assets/images/calgary-web-design-case-study-2.svg"
+        alt="calgary web design case study"
+        width="586"
+        height="690"
+      />
+    </picture>
+    <div class="cs-content">
+      <span class="cs-topper">Website Design Case Study</span>
+      <h2 class="cs-title">
+        Massage Therapist Gets 600% More Website Impressions
+      </h2>
+      <ul class="cs-card-group">
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">01</span>
+            <h3 class="cs-h3">Web Design & Development</h3>
+          </div>
+          <p class="cs-item-text">
+            <a href="/services/web-design-calgary">Design and development</a>
+            that strongly mirrored existing online profiles for maximum
+            consistency to elevate trust from new and returning customers.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">02</span>
+            <h3 class="cs-h3">Online Booking System</h3>
+          </div>
+          <p class="cs-item-text">
+            Integrating a booking system so customers can easily schedule
+            appointments while the massage therapist can customize
+            availabilities with ease.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">03</span>
+            <h3 class="cs-h3">Local SEO</h3>
+          </div>
+          <p class="cs-item-text">
+            Focusing on SEO keywords that were not being used on competitor
+            websites to gain results in a short amount of time, while working on
+            a
+            <a href="/services/calgary-seo-services">long-term SEO campaign</a>
+            in the background.
+          </p>
+        </li>
+        <li class="cs-item">
+          <div class="wrapper">
+            <span class="cs-item-number">04</span>
+            <h3 class="cs-h3">Ongoing Website Support</h3>
+          </div>
+          <p class="cs-item-text">
+            Consistent updates to the website done within 48-hours! Customers
+            need to be kept in the loop as their go-to businesses evolve.
+          </p>
+        </li>
+      </ul>
+      <a href="/portfolio" class="cs-button-solid">View All Work</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+{#
+<section id="gallery-1374">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">My Portfolio</span>
+      <h2 class="cs-title">Explore My Recently Completed Websites</h2>
+      <p class="cs-text">
+        I specialize in small business web design and development for clients
+        anywhere in the Canada. Every line of code is written by hand to ensure
+        the best performance, which helps bring in more customers to your site
+        and bring more revenue to your business.
+      </p>
+    </div>
+    <ul class="cs-image-group">
+      <!-- Card 1 -->
+      <li class="cs-item">
+        <a href="/" class="cs-link">
+          <picture class="cs-picture">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-1.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-1.png
+              "
+            />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-1.png"
+              alt="fancy house"
+              width="346"
+              height="346"
+            />
+          </picture>
+          <div class="cs-item-text">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Voyage</h3>
+              <span class="cs-desc">A complete Travel Agency App UI</span>
+            </div>
+            <picture class="cs-icon-wrapper">
+              <img
+                class="cs-icon"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                alt="arrow"
+                width="413"
+                height="374"
+                aria-hidden="true"
+              />
+            </picture>
+          </div>
+        </a>
+      </li>
+      <!-- Card 2 -->
+      <li class="cs-item">
+        <a href="/" class="cs-link">
+          <picture class="cs-picture">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-2.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-2.png
+              "
+            />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-2.png"
+              alt="modern house"
+              width="346"
+              height="346"
+            />
+          </picture>
+          <div class="cs-item-text">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Matcha and Co</h3>
+              <span class="cs-desc">A Tea Brand E-commerce Website</span>
+            </div>
+            <picture class="cs-icon-wrapper">
+              <img
+                class="cs-icon"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                alt="arrow"
+                width="413"
+                height="374"
+                aria-hidden="true"
+              />
+            </picture>
+          </div>
+        </a>
+      </li>
+      <!-- Card 3 -->
+      <li class="cs-item">
+        <a href="/" class="cs-link">
+          <picture class="cs-picture">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-3.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-3.png
+              "
+            />
+            <img
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-3.png"
+              alt="modern home at night"
+              width="346"
+              height="346"
+            />
+          </picture>
+          <div class="cs-item-text">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Bradley</h3>
+              <span class="cs-desc"
+                >This is Psychologist's Portfolio landing page UI header.</span
+              >
+            </div>
+            <picture class="cs-icon-wrapper">
+              <img
+                class="cs-icon"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                alt="arrow"
+                width="413"
+                height="374"
+                aria-hidden="true"
+              />
+            </picture>
+          </div>
+        </a>
+      </li>
+      <!-- Card 4 -->
+      <li class="cs-item">
+        <a href="/" class="cs-link">
+          <picture class="cs-picture">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-4.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-4.png
+              "
+            />
+            <img
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-4.png"
+              alt="modern home"
+              width="346"
+              height="346"
+            />
+          </picture>
+          <div class="cs-item-text">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Anthony</h3>
+              <span class="cs-desc">A Men's Skin Care website</span>
+            </div>
+            <picture class="cs-icon-wrapper">
+              <img
+                class="cs-icon"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                alt="arrow"
+                width="413"
+                height="374"
+                aria-hidden="true"
+              />
+            </picture>
+          </div>
+        </a>
+      </li>
+      <!-- Card 5 -->
+      <li class="cs-item">
+        <a href="/" class="cs-link">
+          <picture class="cs-picture">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-5.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-5.png
+              "
+            />
+            <img
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-5.png"
+              alt="appliance"
+              width="346"
+              height="346"
+            />
+          </picture>
+          <div class="cs-item-text">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Quizlingo</h3>
+              <span class="cs-desc">A complete Vocabulary Game App UI</span>
+            </div>
+            <picture class="cs-icon-wrapper">
+              <img
+                class="cs-icon"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                alt="arrow"
+                width="413"
+                height="374"
+                aria-hidden="true"
+              />
+            </picture>
+          </div>
+        </a>
+      </li>
+      <!-- Card 6 -->
+      <li class="cs-item">
+        <a href="/" class="cs-link">
+          <picture class="cs-picture">
+            <source
+              media="(max-width: 600px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-6.png
+              "
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="
+                https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-6.png
+              "
+            />
+            <img
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/agency-portfolio-6.png"
+              alt="modern home"
+              width="346"
+              height="346"
+            />
+          </picture>
+          <div class="cs-item-text">
+            <div class="cs-flex">
+              <h3 class="cs-h3">Listee</h3>
+              <span class="cs-desc">A Business Directory Listing Website</span>
+            </div>
+            <picture class="cs-icon-wrapper">
+              <img
+                class="cs-icon"
+                decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/agency-arrow-upper-right.svg"
+                alt="arrow"
+                width="413"
+                height="374"
+                aria-hidden="true"
+              />
+            </picture>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <a href="/" class="cs-button-solid">View All Works</a>
+  </div>
+  <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+#}
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-218">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Websites done right</span>
+      <h2 class="cs-title">high-performance websites and SEO</h2>
+      <p class="cs-text">
+        I have been <a href="/reviews">highly reviewed</a> after working with a
+        variety of industries including tech startups, ecommerce businesses,
+        home renovators, electricians, concrete contractors, 3D printing shops
+        and other professional service providers. If you’re looking for
+        reputable
+        <a href="/services/web-design-calgary">website design</a> companies in
+        Calgary, you have met your match. It is my goal to help you make sales
+        in your sleep!
+      </p>
+      <a href="/contact.html" class="cs-button-solid">Get Free Quote</a>
+    </div>
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <img
+          class="cs-icon"
+          loading="lazy"
+          decoding="async"
+          src="/assets/images/web-design-services.svg"
+          alt="web design services"
+          width="77"
+          height="77"
+        />
+        <h3 class="cs-h3">Web Design & Development</h3>
+        <p class="cs-item-text">
+          Clean and simple designs built for making your customers say "yes"!
+          <a href="/services/web-design-calgary">View Services</a>
+        </p>
+      </li>
+      <li class="cs-item">
+        <img
+          class="cs-icon"
+          loading="lazy"
+          decoding="async"
+          src="/assets/images/seo-services.svg"
+          alt="seo services"
+          width="77"
+          height="77"
+        />
+        <h3 class="cs-h3">Local SEO</h3>
+        <p class="cs-item-text">
+          Need website SEO in Calgary? Let's get your business noticed on
+          high-traffic online sources to maximize lead generation.
+          <a href="/services/calgary-seo-services">View Services</a>
+        </p>
+      </li>
+      <li class="cs-item">
+        <img
+          class="cs-icon"
+          loading="lazy"
+          decoding="async"
+          src="/assets/images/website-hosting-services.svg"
+          alt="website hosting services"
+          width="77"
+          height="77"
+        />
+        <h3 class="cs-h3">Website Hosting & Support</h3>
+        <p class="cs-item-text">
+          Free website hosting with 100% uptime, and ongoing website support so
+          you don't have to lift a finger!
+          <a href="/services/web-design-calgary">View Services</a>
+        </p>
+      </li>
+    </ul>
+    <!-- Floating Watermark -->
+    {#
+    <img
+      class="cs-watermark"
+      aria-hidden="true"
+      loading="lazy"
+      decoding="async"
+      src="https://csimg.nyc3.digitaloceanspaces.com/Services/svg-graphic.svg"
+      alt="icon"
+      width="77"
+      height="77"
+    />
+    #}
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Logos                      -->
+<!-- ============================================ -->
+
+<section id="logos-857">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">happy clients</span>
+      <h2 class="cs-title">some of my awesome web design & SEO clients</h2>
+      <p class="cs-text">
+        Since starting a
+        <a href="/services/web-design-calgary">web design & development</a>
+        business in early 2020, I have had the pleasure of working with a
+        variety of industries on their website and
+        <a href="/services/calgary-seo-services">SEO services</a>, including
+        construction & home services, lodging, automotive, manufacturing,
+        engineering, health & wellness, fine arts, advertising, and more. Below
+        are a few of those lucky clients!
+      </p>
+    </div>
+    <div class="cs-logo-group">
+      <!--Ideally you want to use svg's for the file path image, which is why these aren't wrapped in picture elements for different screen sizes-->
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/web-design-calgary-client-1.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/calgary-web-design-client-2.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/calgary-website-design-client-3.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/website-design-calgary-client-4.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/web-designer-calgary-client-5.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/calgary-web-designer-client-6.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/best-calgary-web-design-client-7.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/best-calgary-website-designer-client-8.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/website-designers-calgary-client-9.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/calgary-website-designers-client-10.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/web-designers-calgary-client-11.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/web-design-calgary-client-12.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/web-design-calgary-client-13.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/web-design-calgary-client-14.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-logo"
+        src="/assets/images/clients/web-design-calgary-client-15.svg"
+        alt="calgary web design client logo"
+        width="150"
+        height="65"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-1673">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Testimonials</span>
+      <h2 class="cs-title">
+        Dedicated To Providing Real Results For Web Design & SEO Clients
+      </h2>
+      <p class="cs-text">
+        Working with your new adept
+        <a href="/services/web-design-calgary">Calgary web design</a> service
+        provider means it is completely up to you on how involved you would like
+        to be on your next website, landing page, eCommerce, or
+        <a href="/services/calgary-seo-services">SEO</a> project. Some clients
+        love when I take full control of their website design or SEO campaign
+        because it’ll be unique and spot on to your branding. Other’s love a
+        more collaborative approach that is taken for the overall look and feel
+        of their new website, or SEO campaign messaging. Either way, the
+        priority remains: you will see real results come from getting an expert
+        to improve your website, SEO, and online presence.
+      </p>
+    </div>
+    <ul class="cs-card-group">
+      <li class="cs-item">
+        <div class="cs-flex-group">
+          <picture class="cs-picture">
+            <img
+              class="cs-profile"
+              src="/assets/images/google-review-for-web-designer.svg"
+              decoding="async"
+              alt="profile"
+              width="50"
+              height="50"
+              aria-hidden="true"
+              loading="lazy"
+            />
+          </picture>
+
+          <span class="cs-name">
+            Victoria Preissl
+            <span class="cs-job">KLAAD Glass Ltd.</span>
+          </span>
+        </div>
+        <div class="wrapper">
+          <img
+            class="cs-item-stars"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/yellow-stars.svg"
+            alt="stars"
+            width="96"
+            height="16"
+          />
+          <p class="cs-text italics">
+            Aaron listened to our feedback, answered our questions, and brought
+            his expertise. He also referred us to a computer tech that helped us
+            set up Microsoft 365, Sharepoint, shared data files, Outlook, etc.
+            Aaron was friendly, timely and totally fun to work with. 60 days
+            after lauching, the site generated a 16x increase in online
+            inquiries. I would recommend Aaron, and have, to anyone looking to
+            increase their business visibility, website traffic,
+            professionalism, credibility, and most importantly, revenue!
+            <a
+              href="https://www.google.com/search?q=aaron+tonner+web+solutions&rlz=1C1JZAP_enCA1008CA1008&oq=aaron+tonner+web+solutions&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGD0yBggCEEUYPDIGCAMQRRhB0gEIMjc5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x8984d19ad4196043:0xa41e3748c364663b,1,,,,"
+              >Read more...</a
+            >
+          </p>
+        </div>
+        <!--Quote Icon-->
+        <img
+          class="cs-quote"
+          aria-hidden="true"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gray-quote.svg"
+          decoding="async"
+          alt="quote icon"
+          width="120"
+          height="99"
+          loading="lazy"
+        />
+      </li>
+      <li class="cs-item">
+        <div class="cs-flex-group">
+          <picture class="cs-picture">
+            <img
+              class="cs-profile"
+              src="/assets/images/google-review-for-web-designer.svg"
+              decoding="async"
+              alt="profile"
+              width="50"
+              height="50"
+              aria-hidden="true"
+              loading="lazy"
+            />
+          </picture>
+
+          <span class="cs-name">
+            Rob Thiessen
+            <span class="cs-job">3'D Revolution Technologies</span>
+          </span>
+        </div>
+        <div class="wrapper">
+          <img
+            class="cs-item-stars"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/yellow-stars.svg"
+            alt="stars"
+            width="96"
+            height="16"
+          />
+          <p class="cs-text italics">
+            I really enjoyed working collaboratively with Aaron. He's very adept
+            at what he does, and efficient as well. I also appreciated the
+            professionalism he brought to my online communications with clients.
+            His advise was always solid and thoughtful, and with his help I've
+            been able to communicate my unique business and value proposition to
+            clients much more effectively. This includes website and direct
+            communications. I wouldn't hesitate to recommend Aaron Tonner Web
+            Solutions to other business owners!
+            <a
+              href="https://www.google.com/search?q=aaron+tonner+web+solutions&rlz=1C1JZAP_enCA1008CA1008&oq=aaron+tonner+web+solutions&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGD0yBggCEEUYPDIGCAMQRRhB0gEIMjc5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x8984d19ad4196043:0xa41e3748c364663b,1,,,,"
+              >Read more...</a
+            >
+          </p>
+        </div>
+        <!--Quote Icon-->
+        <img
+          class="cs-quote"
+          aria-hidden="true"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gray-quote.svg"
+          decoding="async"
+          alt="quote icon"
+          width="120"
+          height="99"
+          loading="lazy"
+        />
+      </li>
+      <li class="cs-item">
+        <div class="cs-flex-group">
+          <picture class="cs-picture">
+            <img
+              class="cs-profile"
+              src="/assets/images/google-review-for-web-designer.svg"
+              decoding="async"
+              alt="profile"
+              width="50"
+              height="50"
+              aria-hidden="true"
+              loading="lazy"
+            />
+          </picture>
+
+          <span class="cs-name">
+            James Ross
+            <span class="cs-job">Royco Electric</span>
+          </span>
+        </div>
+        <div class="wrapper">
+          <img
+            class="cs-item-stars"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/yellow-stars.svg"
+            alt="stars"
+            width="96"
+            height="16"
+          />
+          <p class="cs-text">
+            Aaron's professionalism and confidence made for an easy decision.
+            With very little input on my end his initial design and layout was
+            spot on to our branding. Aaron handled our changes and suggestions
+            almost instantly and was always patient and willing to go the extra
+            mile for our needs. I highly recommend Aaron to any business not
+            only looking for a great website but to increase revenue and
+            exposure. The tools he installed have already increased our customer
+            connections.
+            <a
+              href="https://www.google.com/search?q=aaron+tonner+web+solutions&rlz=1C1JZAP_enCA1008CA1008&oq=aaron+tonner+web+solutions&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGD0yBggCEEUYPDIGCAMQRRhB0gEIMjc5MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x8984d19ad4196043:0xa41e3748c364663b,1,,,,"
+              >Read more...</a
+            >
+          </p>
+        </div>
+        <!--Quote Icon-->
+        <img
+          class="cs-quote"
+          aria-hidden="true"
+          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gray-quote.svg"
+          decoding="async"
+          alt="quote icon"
+          width="120"
+          height="99"
+          loading="lazy"
+        />
+      </li>
+    </ul>
+  </div>
+  <picture class="cs-background">
+    <source
+      media="(max-width: 600px)"
+      srcset="/assets/images/website-design-company-calgary.png"
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="/assets/images/website-design-company-calgary.png"
+    />
+    <img
+      aria-hidden="true"
+      decoding="async"
+      src="/assets/images/website-design-company-calgary.png"
+      alt="website design company calgary"
+      width="886"
+      height="842"
+      loading="lazy"
+    />
+  </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                     CTA                      -->
+<!-- ============================================ -->
+
+<section id="cta-51">
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">Let's Make Magic Happen</span>
+      <h2 class="cs-title">Get Your $100 Website (Limited Time Offer!)</h2>
+      <p class="cs-text">
+        Don't settle for a
+        <a href="/services/web-design-calgary">website</a> that's going to sit
+        there doing nothing for you. Get a wildly affordable website with SEO
+        built in to captivate your audience while you outshine, outrank, and
+        outperform your online competition... in your sleep!
+      </p>
+      <a href="/contact" class="cs-button-solid">Get A Free Quote</a>
+    </div>
+  </div>
+  <!-- Background Image-->
+  <picture class="cs-picture">
+    <source
+      media="(max-width: 600px)"
+      srcset="/assets/images/cta-background.png"
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="/assets/images/cta-background.png"
+    />
+    <img
+      loading="lazy"
+      decoding="async"
+      src="/assets/images/cta-background.png"
+      alt="affordable website offer"
+      width="1920"
+      height="1280"
+      aria-hidden="true"
+    />
+  </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                    Form                      -->
+<!-- ============================================ -->
+
+<section id="cs-contact-486">
+  <div class="cs-container">
+    <div class="cs-content">
+      <h2 class="cs-title">Send me a message!</h2>
+      <p class="cs-text">
+        I'd love to hear about your project and discuss how I can help. Please
+        fill the form on the right side to schedule a call or discussion to get
+        started on your new website.
+      </p>
+      <span class="cs-heading">You can also contact me here:</span>
+      <a href="tel:587-437-9161" class="cs-link">(587) 437-9161</a>
+      <a href="mailto:aaron@aarontonner.com" class="cs-link"
+        >aaron@aarontonner.com</a
+      >
+    </div>
+    <!--Form-->
+    <form id="cs-form-486" name="Contact Form" method="post">
+      <h3 class="cs-h3">What can I do for you?</h3>
+      <label class="cs-label">
+        Name *
+        <input
+          class="cs-input"
+          required
+          type="text"
+          id="name-486"
+          name="name"
+          placeholder="Name"
+        />
+      </label>
+      <label class="cs-label">
+        Phone *
+        <input
+          class="cs-input"
+          required
+          type="text"
+          id="phone-486"
+          name="phone"
+          placeholder="Phone"
+        />
+      </label>
+      <label class="cs-label">
+        Email *
+        <input
+          class="cs-input"
+          required
+          type="text"
+          id="email-486"
+          name="email"
+          placeholder="Email"
+        />
+      </label>
+      <label class="cs-label">
+        Message *
+        <textarea
+          class="cs-input cs-textarea"
+          required
+          name="Message"
+          id="message-1700"
+          placeholder="Message"
+        >
+Hi Aaron, I saw your $100 website offer with lifetime edits and hosting and I'd love to hear more about it!</textarea
+        >
+      </label>
+      <button class="cs-button-solid cs-submit" type="submit">
+        Send Message
+      </button>
+    </form>
+  </div>
+</section>
+
+{% endblock %}

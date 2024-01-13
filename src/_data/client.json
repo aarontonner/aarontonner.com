@@ -1,0 +1,15 @@
+{
+  "name": "Aaron Tonner Web Solutions",
+  "email": "aaron@aarontonner.com",
+  "phoneForTel": "587-437-9161",
+  "phoneFormatted": "(587) 437-9161",
+  "address": {
+    "lineOne": "First Address Line",
+    "lineTwo": "Second Address Line",
+    "city": "Calgary",
+    "state": "AB",
+    "zip": "T2X 0G7",
+    "mapLink": "https://www.google.com/maps/place/Aaron+Tonner+Web+Solutions/@51.0276233,-114.087835,10z/data=!4m6!3m5!1s0x8984d19ad4196043:0xa41e3748c364663b!8m2!3d51.0276233!4d-114.087835!16s%2Fg%2F11p001rjcp?entry=ttu"
+  },
+  "domain": "https://www.aarontonner.com"
+}

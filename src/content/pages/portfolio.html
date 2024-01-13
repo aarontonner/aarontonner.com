@@ -1,0 +1,57 @@
+---
+title: "Portfolio | Aaron Tonner Web Solutions | Websites & SEO"
+description: "See my portfolio to view high-performance custom websites that implement winning SEO strategies for my clients. Call me at 587-437-9161 to learn more."
+preloadImg: "/assets/images/cabinets2.jpg"
+permalink: "/portfolio/"
+eleventyNavigation:
+  key: Portfolio
+  order: 600
+---
+
+{% extends "layouts/base.html" %} {% block head %}
+<link rel="stylesheet" href="/assets/css/portfolio.css" />
+<link rel="stylesheet" href="/assets/css/components.css" />
+{% endblock %} {% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="PortfolioBanner-327">
+  <div class="cs-container">
+    <div class="cs-breadcrumbs">
+      <a href="/" class="cs-link">Home</a>
+      <a href="/portfolio" class="cs-link cs-active">Portfolio</a>
+    </div>
+    <h1 class="cs-int-title">Web Design & Development Portfolio</h1>
+
+    <p class="cs-text light">
+      I do things differently here... I build websites to help your business get
+      REAL results (just like how I helped a local contractor 16X his service
+      calls).
+    </p>
+  </div>
+  <!--Background Image-->
+  <picture class="cs-background">
+    <source
+      media="(max-width: 600px)"
+      srcset="https://csimg.nyc3.digitaloceanspaces.com/Banners/library-m.jpg"
+    />
+    <source
+      media="(min-width: 601px)"
+      srcset="https://csimg.nyc3.digitaloceanspaces.com/Banners/library.jpg"
+    />
+    <img
+      aria-hidden="true"
+      loading="lazy"
+      decoding="async"
+      src="https://csimg.nyc3.digitaloceanspaces.com/Banners/library.jpg"
+      alt="library"
+      width="1920"
+      height="375"
+    />
+  </picture>
+</div>
+
+{% include 'components/gallery.html' %} {% include 'components/form.html' %} {%
+endblock %}
