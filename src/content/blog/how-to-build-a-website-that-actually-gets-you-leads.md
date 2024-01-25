@@ -15,19 +15,19 @@ If you’re a business owner who relies heavily on getting new customers through
 
 In this article, I’m going to uncover the lesser-known methods of making your website stick out like a beautiful sore thumb so your customers feel like they have no better option than to hire you for the services you offer.
 
-Part 1: first you have to get seen by the people searching for your services… duh!
+# Get Your Website Seen Online By The People Searching for Your Services
 
-Method 1: SEO basics, get your main keywords where they belong
+## SEO basics, get your main keywords where they belong
 
 Whether or not SEO (search engine optimization) eludes you, this is going to be as simple as tying your shoes - anyone can do it. 
 
-Start by determining your main keyword: “niche + location”. For example, if you’re a web designer like me, your main keyword would be “web designer Calgary”, or a similar variation, but let’s keep it simple for now. Or, if you build homes, “home builder Calgary” might be your primary SEO keyword.
+**Start by determining your main keyword**: “niche + location”. For example, if you’re a web designer like me, your main keyword would be “web designer Calgary”, or a similar variation, but let’s keep it simple for now. Or, if you build homes, “home builder Calgary” might be your primary SEO keyword.
 
-Have your main keyword? Congratulations, you have just built the foundation to your entire SEO strategy!
+Have your main keyword? Congratulations, **you have just built the foundation to your entire SEO strategy!**
 
 Now, it’s time to get that keyword where it belongs. I would consider having your keywords in the right place on your website one of the most important on-page SEO factors because it provides Google with “quick & dirty” knowledge of what your business does, and they say “perfect, know I know Aaron is a web designer based in Calgary, so I’ll show his website to people looking for this service on Google”.
 
-Where to put your main keyword:
+**Where to put your main keyword:**
 
 * In your website title tag. Contact your web developer, or check out the documentation of your website builder. I’ve gone ahead and linked the specific articles for the more popular site builders that you can use: ([Wix ](https://support.wix.com/en/article/changing-the-title-in-the-browser-tab), [Squarespace](https://support.squarespace.com/hc/en-us/articles/206544147-Editing-page-titles), [Wordpress](https://wordpress.com/go/tutorials/how-to-add-edit-and-optimize-title-tags-on-wordpress-sites/)).
 
@@ -43,7 +43,7 @@ It’s essential to place your SEO keywords in this title while remaining unique
 
 Usually, it’s best SEO practice to use the same title you wrote above for your title tag, but sometimes it doesn’t always make sense. It can be even more effective from a “customer journey” standpoint to use your H1 tag to build off your title tag. A customer already liked your unique title, so this is an opportunity to give them another reason to fall in love with your company. Don’t forget to add your main keyword in the first 100 words of your website content!
 
-* In your web page URL. Most website builders enable you to customize this, and it’s sometimes called the “URL slug”. IMPORTANT: if changing a page URL, please get your developer to create \[301 redirects](https://bloggingexperiment.com/understanding-401-301-and-302-redirects-and-how-it-affects-your-seo), otherwise, this will have adverse effects on your SEO.
+* In your web page URL. Most website builders enable you to customize this, and it’s sometimes called the “URL slug”. IMPORTANT: if changing a page URL, please get your developer to create [301 redirects](https://bloggingexperiment.com/understanding-401-301-and-302-redirects-and-how-it-affects-your-seo), otherwise, this will have adverse effects on your SEO.
 
 ![website h1 tag for seo](/assets/images/blog/website-page-h1-tag-for-seo.png)
 
