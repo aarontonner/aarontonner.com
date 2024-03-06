@@ -960,6 +960,10 @@ html {
     padding: calc(50 / 16 * 1rem) 0;
     position: relative;
 
+    #inline-link {
+      color: white;
+    }
+
     &:before {
       content: "";
       width: 100%;

@@ -816,6 +816,9 @@ html {
     padding: 3.125rem 0;
     position: relative;
   }
+  #cta #inline-link {
+    color: white;
+  }
   #cta:before {
     content: "";
     width: 100%;
